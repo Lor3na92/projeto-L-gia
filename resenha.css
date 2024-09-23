@@ -1,0 +1,33 @@
+.alinhar{
+    display: flex;
+    font-size: large;
+    justify-content:center;
+}
+strong{
+    margin-top: 40px;
+    margin: 20px;
+    text-align: center;
+    font-size: 35px;
+}
+.textores h3{
+    font-size: 25px;
+    
+}
+.resenha-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 65%;
+}
+.resenha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width:50px;
+    border-radius: 30px;
+    border: solid rgb(0, 0, 0) 3px;
+}

@@ -1,0 +1,53 @@
+.titulo3{
+    display: flex;
+    justify-content: center;
+    color: rgb(37, 95, 52);  ;
+}
+
+.text4{
+   width: 200;
+   font-family: "Lora", serif;
+   font-optical-sizing: auto;
+   font-weight: weight;
+   font-style: normal;
+}
+
+.titulo2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+        font-family: "Lora", serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+}
+
+
+.sub{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(37, 95, 52); ;
+}
+
+
+
+.paragrafo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.curiosidades-1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.logo img{
+    width:50px;
+    border-radius: 30px;
+    border: solid rgb(0, 0, 0) 3px;
+}

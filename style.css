@@ -1,0 +1,154 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(25, 64, 34);
+    padding: 16px;
+}
+
+
+.cabecalho strong {
+    font-size: 32px;
+    color: antiquewhite;
+}
+
+.menu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.espelho {
+    display: flex;
+    justify-content: space-around
+}
+
+.texto {
+    display: flex;
+    font-size: 30px;
+    justify-content: space-around;
+}
+
+.texto2 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+main {
+    background: linear-gradient(to bottom,
+            #f8fdbc 20%,
+            /* Branco no topo */
+            #f8fdbc 50%,
+            /* verde claro no meio */
+            #f8fdbc 50%
+            /* verde no fundo */
+        );
+}
+
+.nome h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.inicio {
+    display: flex;
+    justify-content: center;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+}
+
+
+.asis img {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    border: solid black 4px;
+    border-radius: 8px;
+}
+
+.livro img {
+    height: 400px;
+    width: 300px;
+}
+
+.espelho img:hover {
+    scale: 1.2;
+    transition: 0.25s;
+}
+
+.espelho img {
+    height: 500px;
+    width: 500;
+    border-radius: 6px;
+}
+
+
+
+.livro {
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.active {
+    color: white;
+}
+
+
+body {
+    background-color: #f8fdbc;
+}
+
+.logo img {
+    width: 50px;
+    border-radius: 30px;
+    border: solid rgb(0, 0, 0) 3px;
+}
+
+.espelho-texto {
+    display: flex;
+    align-items: center;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    width: 45%;
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width: 850px) {
+    .espelho {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 780px) {
+    .cabecalho {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 550px) {
+    .cabecalho {
+        flex-direction: column;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+    }
+}
+

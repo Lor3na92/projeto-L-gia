@@ -1,0 +1,72 @@
+.JACOBINA {
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.personagens {
+  display: flex;
+  flex-direction: column;
+}
+
+.hist1 img {
+  border-radius: 600px;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  border: solid black 6px;
+}
+
+
+.hist2 img {
+  border-radius: 900px;
+  width: 480px;
+  height: 450px;
+  display: flex;
+  border: solid rgb(0, 0, 0) 6px;
+}
+
+
+.personagens {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.personagem {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.historia1 {
+  flex-direction: column;
+  text-align: center;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.historia2 {
+  flex-direction: column;
+  text-align: center;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.logo img {
+  width: 50px;
+  border-radius: 30px;
+  border: solid rgb(0, 0, 0) 3px;
+}
+
+@media (max-width: 780px) {
+  .personagem {
+    display: flex;
+    flex-direction: column;
+  }
+}
